@@ -1,0 +1,1 @@
+clang++ -O2  -std=c++11 -o gpioservice *.cpp -lrt -lbcm2835  -lgnutls /usr/lib/arm-linux-gnueabihf/libmicrohttpd.a /lib/arm-linux-gnueabihf/libgcrypt.a /usr/lib/arm-linux-gnueabihf/libgpg-error.a

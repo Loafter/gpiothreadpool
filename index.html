@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    </head>
+    <script type="text/javascript">
+
+        function gettemp()
+        {
+	    var xmlHttp = null;
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", '/Action/ActionType="GetTemperature"', true );
+            xmlHttp.onload = function (e)
+                 {
+                  if (xmlHttp.readyState === 4)
+                    {
+                     if (xmlHttp.status === 200)
+                         {
+                        document.getElementById('temp_label').innerHTML = xmlHttp.responseText;
+                         setTimeout(gettemp,500);
+
+                         }
+
+                    }
+                 };
+
+            xmlHttp.send(null);
+	}
+
+	function getmot()
+        {
+	 var xmlHttp = null;
+         xmlHttp = new XMLHttpRequest();
+	 xmlHttp.open( "GET", '/Action/ActionType="GetPinLevel"&GpioID="10"', true );
+ 	 xmlHttp.onload = function (e)
+                 {
+                  if (xmlHttp.readyState === 4)
+                    {
+                     if (xmlHttp.status === 200)
+                         {
+                         document.getElementById('motion_sensor_label').innerHTML = xmlHttp.responseText;
+                         setTimeout(getmot,100);
+ 
+                         }
+                         
+                    }
+                 };
+
+            xmlHttp.send(null);
+        }
+
+        function proceed()
+        {
+         gettemp();
+	 getmot();   
+        }
+        function on_gpio1()
+        {
+            
+            var xmlHttp = null;
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", '/Action/ActionType="SetHiLevelPin"&GpioID="17"', true );
+            xmlHttp.send(null);
+        }
+        function off_gpio1()
+        {
+            
+            var xmlHttp = null;
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", '/Action/ActionType="SetLowLevelPin"&GpioID="17"', true );
+            xmlHttp.send(null);
+        }
+        </SCRIPT>
+    <body onload="proceed()">
+          <font size="13">
+	    <p id='temp_label'></p>
+	    <p id='motion_sensor_label'></p>
+	  </font>
+            <button id="on_gpio1" onclick="on_gpio1()">Turn on Gpio1</button>
+            <button id="off_gpio1" onclick="off_gpio1()">Turn off Gpio1</button>
+   
+ </body>
+</html>

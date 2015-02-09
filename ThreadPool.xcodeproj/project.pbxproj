@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497789C417B223CD0045D59B /* libbcm2835.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497789C317B223CD0045D59B /* libbcm2835.a */; };
+		497789C817B229710045D59B /* TemperatureReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497789C117B223C10045D59B /* TemperatureReader.cpp */; };
+		497789CB17B22D920045D59B /* BCM2835Initer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497789C917B22D920045D59B /* BCM2835Initer.cpp */; };
+		49CE71AF17AA3AA900F27B89 /* BasicThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CE71AA17AA3AA900F27B89 /* BasicThread.cpp */; };
+		49CE71B017AA3AA900F27B89 /* DummyReciver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CE71AC17AA3AA900F27B89 /* DummyReciver.cpp */; };
+		49CE71B117AA3AA900F27B89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CE71AE17AA3AA900F27B89 /* main.cpp */; };
+		49CE71B317AA3AF100F27B89 /* libmicrohttpd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CE71B217AA3AF100F27B89 /* libmicrohttpd.a */; };
+		49CE71BC17AFBD2800F27B89 /* GPIOWebService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CE71BA17AFBD2800F27B89 /* GPIOWebService.cpp */; };
+		49FD9D7717B4E03A0084DBD7 /* GpioSignalCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D7317B4E03A0084DBD7 /* GpioSignalCreator.cpp */; };
+		49FD9D7817B4E03A0084DBD7 /* GpioSignals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D7517B4E03A0084DBD7 /* GpioSignals.cpp */; };
+		49FD9D7E17B4E5800084DBD7 /* GpioReciver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FD9D7D17B4E5800084DBD7 /* GpioReciver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		493CC9FB179D92DE00F8FB3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		493CC9FD179D92DE00F8FB3D /* ThreadPool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreadPool; sourceTree = BUILT_PRODUCTS_DIR; };
+		497789C117B223C10045D59B /* TemperatureReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemperatureReader.cpp; sourceTree = "<group>"; };
+		497789C317B223CD0045D59B /* libbcm2835.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbcm2835.a; sourceTree = "<group>"; };
+		497789C917B22D920045D59B /* BCM2835Initer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BCM2835Initer.cpp; sourceTree = "<group>"; };
+		497789CA17B22D920045D59B /* BCM2835Initer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCM2835Initer.h; sourceTree = "<group>"; };
+		497789CC17B2304F0045D59B /* TemperatureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureReader.h; sourceTree = "<group>"; };
+		497789E817B299D30045D59B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; usesTabs = 0; };
+		49CE71AA17AA3AA900F27B89 /* BasicThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicThread.cpp; sourceTree = "<group>"; };
+		49CE71AB17AA3AA900F27B89 /* BasicThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicThread.h; sourceTree = "<group>"; };
+		49CE71AC17AA3AA900F27B89 /* DummyReciver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DummyReciver.cpp; sourceTree = "<group>"; };
+		49CE71AD17AA3AA900F27B89 /* DummyReciver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyReciver.h; sourceTree = "<group>"; };
+		49CE71AE17AA3AA900F27B89 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		49CE71B217AA3AF100F27B89 /* libmicrohttpd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmicrohttpd.a; sourceTree = "<group>"; };
+		49CE71BA17AFBD2800F27B89 /* GPIOWebService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPIOWebService.cpp; sourceTree = "<group>"; };
+		49CE71BB17AFBD2800F27B89 /* GPIOWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPIOWebService.h; sourceTree = "<group>"; };
+		49FD9D7317B4E03A0084DBD7 /* GpioSignalCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GpioSignalCreator.cpp; sourceTree = "<group>"; };
+		49FD9D7417B4E03A0084DBD7 /* GpioSignalCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpioSignalCreator.h; sourceTree = "<group>"; };
+		49FD9D7517B4E03A0084DBD7 /* GpioSignals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GpioSignals.cpp; sourceTree = "<group>"; };
+		49FD9D7617B4E03A0084DBD7 /* GpioSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpioSignals.h; sourceTree = "<group>"; };
+		49FD9D7C17B4E5800084DBD7 /* GpioReciver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpioReciver.h; sourceTree = "<group>"; };
+		49FD9D7D17B4E5800084DBD7 /* GpioReciver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GpioReciver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493CC9FA179D92DE00F8FB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE71B317AA3AF100F27B89 /* libmicrohttpd.a in Frameworks */,
+				497789C417B223CD0045D59B /* libbcm2835.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493CC9F4179D92DD00F8FB3D = {
+			isa = PBXGroup;
+			children = (
+				497789E817B299D30045D59B /* index.html */,
+				497789C317B223CD0045D59B /* libbcm2835.a */,
+				49CE71B217AA3AF100F27B89 /* libmicrohttpd.a */,
+				49FD9D7C17B4E5800084DBD7 /* GpioReciver.h */,
+				49FD9D7D17B4E5800084DBD7 /* GpioReciver.cpp */,
+				49FD9D7317B4E03A0084DBD7 /* GpioSignalCreator.cpp */,
+				49FD9D7417B4E03A0084DBD7 /* GpioSignalCreator.h */,
+				49FD9D7517B4E03A0084DBD7 /* GpioSignals.cpp */,
+				49FD9D7617B4E03A0084DBD7 /* GpioSignals.h */,
+				497789CA17B22D920045D59B /* BCM2835Initer.h */,
+				497789C917B22D920045D59B /* BCM2835Initer.cpp */,
+				497789C117B223C10045D59B /* TemperatureReader.cpp */,
+				497789CC17B2304F0045D59B /* TemperatureReader.h */,
+				49CE71BA17AFBD2800F27B89 /* GPIOWebService.cpp */,
+				49CE71BB17AFBD2800F27B89 /* GPIOWebService.h */,
+				49CE71AA17AA3AA900F27B89 /* BasicThread.cpp */,
+				49CE71AB17AA3AA900F27B89 /* BasicThread.h */,
+				49CE71AC17AA3AA900F27B89 /* DummyReciver.cpp */,
+				49CE71AD17AA3AA900F27B89 /* DummyReciver.h */,
+				49CE71AE17AA3AA900F27B89 /* main.cpp */,
+				493CC9FE179D92DE00F8FB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493CC9FE179D92DE00F8FB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493CC9FD179D92DE00F8FB3D /* ThreadPool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493CC9FC179D92DE00F8FB3D /* ThreadPool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493CCA06179D92DE00F8FB3D /* Build configuration list for PBXNativeTarget "ThreadPool" */;
+			buildPhases = (
+				493CC9F9179D92DE00F8FB3D /* Sources */,
+				493CC9FA179D92DE00F8FB3D /* Frameworks */,
+				493CC9FB179D92DE00F8FB3D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreadPool;
+			productName = ThreadPool;
+			productReference = 493CC9FD179D92DE00F8FB3D /* ThreadPool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493CC9F5179D92DD00F8FB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrew Rose";
+			};
+			buildConfigurationList = 493CC9F8179D92DD00F8FB3D /* Build configuration list for PBXProject "ThreadPool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 493CC9F4179D92DD00F8FB3D;
+			productRefGroup = 493CC9FE179D92DE00F8FB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493CC9FC179D92DE00F8FB3D /* ThreadPool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493CC9F9179D92DE00F8FB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE71AF17AA3AA900F27B89 /* BasicThread.cpp in Sources */,
+				49CE71B017AA3AA900F27B89 /* DummyReciver.cpp in Sources */,
+				49CE71B117AA3AA900F27B89 /* main.cpp in Sources */,
+				49CE71BC17AFBD2800F27B89 /* GPIOWebService.cpp in Sources */,
+				497789C817B229710045D59B /* TemperatureReader.cpp in Sources */,
+				497789CB17B22D920045D59B /* BCM2835Initer.cpp in Sources */,
+				49FD9D7717B4E03A0084DBD7 /* GpioSignalCreator.cpp in Sources */,
+				49FD9D7817B4E03A0084DBD7 /* GpioSignals.cpp in Sources */,
+				49FD9D7E17B4E5800084DBD7 /* GpioReciver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		493CCA04179D92DE00F8FB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		493CCA05179D92DE00F8FB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		493CCA07179D92DE00F8FB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib/,
+					"\"$(SRCROOT)/ThreadPool\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Debug;
+		};
+		493CCA08179D92DE00F8FB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/local/lib/,
+					"\"$(SRCROOT)/ThreadPool\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493CC9F8179D92DD00F8FB3D /* Build configuration list for PBXProject "ThreadPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493CCA04179D92DE00F8FB3D /* Debug */,
+				493CCA05179D92DE00F8FB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493CCA06179D92DE00F8FB3D /* Build configuration list for PBXNativeTarget "ThreadPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493CCA07179D92DE00F8FB3D /* Debug */,
+				493CCA08179D92DE00F8FB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493CC9F5179D92DD00F8FB3D /* Project object */;
+}

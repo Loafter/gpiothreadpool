@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "u">
+            </PersistentString>
+            <PersistentString
+               value = "result.">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GPIOReciver::waitPred():GPIOReciver.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "interuptFlag">
+            </PersistentString>
+            <PersistentString
+               value = "newsignalFlag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DummyReciver::DoJob(DummyReciver*)::$_0::operator()(int) const:DummyReciver.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "buffer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GPIOReciver::DoJob(GPIOReciver*):GPIOReciver.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "GPIOReciver::operator()():GPIOReciver.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "interuptFlag">
+            </PersistentString>
+            <PersistentString
+               value = "signalQueue.empty()">
+            </PersistentString>
+            <PersistentString
+               value = "signalQueue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GPIOReciver::ReciveSignal(int const&amp;):GPIOReciver.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "queLock">
+            </PersistentString>
+            <PersistentString
+               value = "signalQueue">
+            </PersistentString>
+            <PersistentString
+               value = "Signal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
